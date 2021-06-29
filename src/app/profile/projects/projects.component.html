@@ -9,7 +9,7 @@
       <div class="row">
         <div *ngFor="let project of projects" class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
           <div class="work-box ">
-            <a href="{{project.web}}" data-gall="portfolioGallery" target="_blank">
+            <a  data-gall="portfolioGallery" target="_blank">
               <div class="work-img">
                 <img [src]="project.imgUrl" alt="Project Portfolio" class="img-fluid">
               </div>
@@ -19,7 +19,7 @@
                 <div class="col-sm-8">
                   <h2 class="w-title">{{ project.title }}</h2>
                   <div class="w-more">
-                    <span class="w-date">{{ project.tech }}</span>
+                    <span class="w-ctegory">{{ project.tech }}</span> / <span class="w-date">{{ project.date }}</span>
                   </div>
                 </div>
                 <div class="col-sm-4">
@@ -39,31 +39,53 @@
     </div>
 
   </div>
-  <!--<div class="container cc-education">
-      <div class="h4 text-center mb-4 title">Projects</div>
 
-      <pagination-controls (pageChange)="pageChanged($event)"></pagination-controls>
-      <div class="row">
-
-          <ng-container *ngFor="let project of projects| paginate: config">
-              <div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-                  <div class="blog-entry">
-                      <div class="card">
-                          <img class="card-img-top" src={{project.imgUrl}} onerror="this.src = 'assets/images/gif.gif'" alt="Card image" style="width:100%">
-                          <div class="card-body">
-                              <h4 class="card-title">{{project.title}}</h4>
-                              <h5 class="card-text"><b>Technology :</b> {{project.tech}} </h5>
-                              <a href={{project.livedemo}} class="btn btn-info stretched-link ml-2 mr-5">Live Demo</a>
-                              <a href={{project.githurl}} class="btn btn-info stretched-link">GithubLink</a>
-
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </ng-container>
-      </div>
-
-      <pagination-controls (pageChange)="pageChanged($event)"></pagination-controls>
-  </div>-->
 </div>
 
+<!--<section id="work" class="portfolio-mf sect-pt4 pb-5 route">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="title-box text-center pt-5">
+          <h3 class="title-a">
+            Portfolio
+          </h3>
+          <p class="subtitle-a">
+            Some projects that I have done currently
+          </p>
+          <div class="line-mf"></div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div *ngFor="let project of projectsService.projects" class="col-md-4">
+        <div class="work-box">
+          <a href="{{project.web}}" data-gall="portfolioGallery" target="_blank">
+            <div class="work-img">
+              <img [src]="project.url" alt="Project Portfolio" class="img-fluid">
+            </div>
+          </a>
+          <div class="work-content">
+            <div class="row">
+              <div class="col-sm-8">
+                <h2 class="w-title">{{ project.title }}</h2>
+                <div class="w-more">
+                  <span class="w-ctegory">{{ project.category }}</span> / <span class="w-date">{{ project.date }}</span>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="w-like pl-3">
+                  <a href="{{project.web}}" target="_blank"> <span class="ion-android-globe"></span></a>
+                </div>
+                <div class="w-like">
+                  <a href="{{project.github}}" target="_blank"> <span class="ion-social-github"></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>-->

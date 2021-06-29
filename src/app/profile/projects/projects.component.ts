@@ -15,7 +15,8 @@ export class ProjectsComponent implements OnInit {
       livedemo: 'https://www.podyam.com',
       githurl: '#',
       imgUrl: 'assets/images/podium.png',
-      tech: 'Dotnet, Angular , c# , MSSQL, CosmosDb, QuartzNet, DevExpress, NET5, Redis, RabbitMq, MicroService, Azure, Docker'
+      tech: 'Dotnet, Angular , c# , MSSQL, CosmosDb, QuartzNet, DevExpress, NET5, Redis, RabbitMq, MicroService, Azure, Docker',
+      date: "Dec 01, 2020",
     },
     {
       id: 4,
@@ -24,7 +25,9 @@ export class ProjectsComponent implements OnInit {
       livedemo: 'https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6589859010030129152',
       githurl: 'https://github.com/AdelSS04/SchoolManager',
       imgUrl: 'assets/images/cs.PNG',
-      tech: 'C#.NET ; Microsoft Access'
+      tech: 'C#.NET ; Microsoft Access',
+      date: "Jan 01, 2019",
+
     },
  
 
@@ -35,7 +38,9 @@ export class ProjectsComponent implements OnInit {
       livedemo: 'https://www.linkedin.com/posts/adellajil_pfa-csharp-wcf-activity-6562611044022263808-f3BP/',
       githurl: '#',
       imgUrl: 'assets/images/pfa.png',
-      tech: 'C#, .Net , SQL , Visual Studio ,ASP.NET, WCF, IIS, MSSM, xamarin'
+      tech: 'C#, .Net , SQL , Visual Studio ,ASP.NET, WCF, IIS, MSSM, xamarin',
+      date: "Juin 01, 2019",
+
     },
 
  
@@ -46,7 +51,9 @@ export class ProjectsComponent implements OnInit {
       livedemo: 'https://www.linkedin.com/posts/adellajil_dotnet-erp-sql-activity-6724679224088662016-Aou2',
       githurl: 'https://github.com/AdelSS04/StockManagement',
       imgUrl: 'assets/images/stock.PNG',
-      tech: 'Angular 10, Asp WebAPi, MSSQL, Azure'
+      tech: 'Angular 10, Asp WebAPi, MSSQL, Azure',
+            date: "Juin 01, 2020",
+
     },
 
     {
@@ -56,7 +63,9 @@ export class ProjectsComponent implements OnInit {
       livedemo: 'https://www.snbapp.com',
       githurl: '#',
       imgUrl: 'assets/images/Snb.png',
-      tech: 'NetCore, MySql , Docker & Firebase'
+      tech: 'NetCore, MySql , Docker & Firebase',
+      date: "Fev 01, 2021",
+
     },
 
   ]
