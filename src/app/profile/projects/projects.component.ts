@@ -18,14 +18,15 @@ export class ProjectsComponent implements OnInit {
       tech: 'Dotnet, Angular , c# , MSSQL, CosmosDb, QuartzNet, DevExpress, NET5, Redis, RabbitMq, MicroService, Azure, Docker'
     },
     {
-      id: 1,
-      title: 'SnB : Sell & Buy App',
+      id: 4,
+      title: 'Desktop application for school management',
       desc: '',
-      livedemo: 'https://www.snbapp.com',
-      githurl: '#',
-      imgUrl: 'assets/images/Snb.png',
-      tech: 'NetCore, MySql , Docker & Firebase'
+      livedemo: 'https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6589859010030129152',
+      githurl: 'https://github.com/AdelSS04/SchoolManager',
+      imgUrl: 'assets/images/cs.PNG',
+      tech: 'C#.NET ; Microsoft Access'
     },
+ 
 
     {
       id: 3,
@@ -49,13 +50,13 @@ export class ProjectsComponent implements OnInit {
     },
 
     {
-      id: 4,
-      title: 'Desktop application for school management',
+      id: 1,
+      title: 'SnB : Sell & Buy App',
       desc: '',
-      livedemo: 'https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6589859010030129152',
-      githurl: 'https://github.com/AdelSS04/SchoolManager',
-      imgUrl: 'assets/images/cs.PNG',
-      tech: 'C#.NET ; Microsoft Access'
+      livedemo: 'https://www.snbapp.com',
+      githurl: '#',
+      imgUrl: 'assets/images/Snb.png',
+      tech: 'NetCore, MySql , Docker & Firebase'
     },
 
   ]

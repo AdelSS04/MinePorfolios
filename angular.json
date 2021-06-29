@@ -28,9 +28,20 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/font-awesome/css/font-awesome.min.css",
+              "node_modules/ionicons/css/ionicons.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.min.js",
+              "./node_modules/@popperjs/core/dist/umd/popper.min.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+              "./node_modules/jquery.easing/jquery.easing.min.js",
+              "./node_modules/waypoints/lib/jquery.waypoints.min.js",
+              "./node_modules/counterup/jquery.counterup.min.js",
+              "./node_modules/typed.js/lib/typed.min.js"
+            ]
           },
           "configurations": {
             "production": {
