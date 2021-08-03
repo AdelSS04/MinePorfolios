@@ -67,6 +67,18 @@ export class ProjectsComponent implements OnInit {
       date: "Fev 01, 2021",
 
     },
+    
+    {
+      id: 6,
+      title: 'Clean DDD Architecture',
+      desc: '',
+      livedemo: '#',
+      githurl: 'https://github.com/AdelSS04/CleanDDDArchitecture',
+      imgUrl: 'https://blob.jacobsdata.com/software-alchemy/entry7/clean-domain-driven-design-jacobs-510.png',
+      tech: 'NetCore, EfCore , Repository Pattern, DDD',
+      date: "Aug 01, 2021",
+
+    },
 
   ]
   constructor() { }
