@@ -1,16 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\src",
-    "\\src\\app",
-    "\\src\\app\\profile",
-    "\\src\\app\\profile\\experience",
-    "\\src\\app\\profile\\footer",
-    "\\src\\app\\profile\\header",
-    "\\src\\app\\profile\\intro",
-    "\\src\\app\\profile\\projects",
-    "\\src\\app\\profile\\reference"
+    ""
   ],
-  "SelectedNode": "\\src\\app\\profile\\footer\\footer.component.scss",
+  "SelectedNode": "\\C:\\Users\\mio\\Source\\Repos\\MinePorfolios",
   "PreviewInSolutionExplorer": false
 }
