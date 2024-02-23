@@ -1,11 +1,10 @@
-# Use an official Nginx image as the base image
-FROM nginx
+FROM node:18-bullseye AS build
+WORKDIR /app
 
-# Copy the built Angular app to the appropriate location in the container
-COPY dist/my-angular-app /usr/share/nginx/html
-
-# Expose port 80 for the Nginx server
+COPY . .
+RUN npm install --legacy-peer-deps
+RUN npm run build
+# Serve Application using Nginx Server
+FROM nginx:alpine
+COPY --from=build /app/dist/personal-portfoli-angular/ /usr/share/nginx/html
 EXPOSE 80
-
-# Start the Nginx server when the container starts
-CMD ["nginx", "-g", "daemon off;"]
